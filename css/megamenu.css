@@ -464,9 +464,9 @@ textarea {
 }
 
 .wpcf7-form .contact-form-footer .wpcf7-submit:hover {
-    box-shadow: 0 0px 20px rgba(84, 1, 74, 0.7);
-    border-color: rgba(255, 6, 224, 0.61);
-    background: linear-gradient(to right, rgba(255, 9, 9, 0.12941176470588237), #c000ffb5, rgba(255, 0, 94, 0.14));
+	box-shadow: 0 0 60px rgb(252 255 68 / 15%);
+    border-color:radial-gradient(ellipse farthest-corner at right bottom, #ffd614 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #ffd614 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #ffd614 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #ffd614 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%);
     color: white;
 }
 
