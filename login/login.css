@@ -13,11 +13,11 @@ body {
 }
 
 .form-structor {
-    background-color: #222;
+  background-color: #222;
     border-radius: 15px;
-    margin-left: 68px;
+    margin-left: 10px;
     height: 550px;
-    width: 350px;
+    width: 277px;
     position: relative;
     margin-top: 9px;
     overflow: hidden;
