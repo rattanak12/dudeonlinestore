@@ -130,18 +130,18 @@
 
             /* Pagination Control
             ================================================== */ 
-            if (options.paginationControl) {
-                paginationControl = $('<ul class="wmuSliderPagination"></ul>');
-                $.each(slides, function(i) {
-                    paginationControl.append('<li><a href="#">' + i + '</a></li>');
-                    paginationControl.find('a:eq(' + i + ')').click(function(e) {    
-                        e.preventDefault();
-                        clearTimeout(slideshowTimeout);   
-                        loadSlide(i);
-                    });                
-                });
-                $this.append(paginationControl);
-            }
+            // if (options.paginationControl) {
+            //     paginationControl = $('<ul class="wmuSliderPagination"></ul>');
+            //     $.each(slides, function(i) {
+            //         paginationControl.append('<li><a href="#">' + i + '</a></li>');
+            //         paginationControl.find('a:eq(' + i + ')').click(function(e) {    
+            //             e.preventDefault();
+            //             clearTimeout(slideshowTimeout);   
+            //             loadSlide(i);
+            //         });                
+            //     });
+            //     $this.append(paginationControl);
+            // }
             
             
             /* Slideshow
